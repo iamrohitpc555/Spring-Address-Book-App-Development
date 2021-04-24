@@ -1,0 +1,39 @@
+2021-04-24 05:30:22.606  WARN 27626 --- [HikariPool-24 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-24 - Thread starvation or clock leap detected (housekeeper delta=5h36m19s128ms).
+2021-04-24 05:53:14.165  WARN 27626 --- [HikariPool-24 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-24 - Thread starvation or clock leap detected (housekeeper delta=22m51s567ms).
+2021-04-24 08:29:41.327  WARN 27626 --- [HikariPool-24 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-24 - Thread starvation or clock leap detected (housekeeper delta=2h36m27s160ms).
+2021-04-24 12:08:52.045  INFO 27626 --- [RMI TCP Connection(2)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2021-04-24 12:08:52.252  INFO 27626 --- [RMI TCP Connection(2)-127.0.0.1] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-04-24 12:08:52.263  INFO 27626 --- [RMI TCP Connection(2)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-04-24 12:08:52.293  INFO 27626 --- [RMI TCP Connection(2)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-24 - Shutdown initiated...
+2021-04-24 12:08:52.319  INFO 27626 --- [RMI TCP Connection(2)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-24 - Shutdown completed.
+2021-04-24 12:08:56.272  INFO 47887 --- [restartedMain] c.b.a.AddressBookApplication             : Starting AddressBookApplication using Java 11.0.10 on ROHITs-MacBook-Pro.local with PID 47887 (/Users/rohitchaudhari/Documents/workspace-sts-3.9.12.RELEASE/AddressBook/target/classes started by rohitchaudhari in /Users/rohitchaudhari/Documents/workspace-sts-3.9.12.RELEASE/AddressBook)
+2021-04-24 12:08:56.274  INFO 47887 --- [restartedMain] c.b.a.AddressBookApplication             : The following profiles are active: dev
+2021-04-24 12:08:56.320  INFO 47887 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-04-24 12:08:56.320  INFO 47887 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-04-24 12:08:56.996  INFO 47887 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-04-24 12:08:57.055  INFO 47887 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 51 ms. Found 1 JPA repository interfaces.
+2021-04-24 12:08:57.576  INFO 47887 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-04-24 12:08:57.585  INFO 47887 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-04-24 12:08:57.586  INFO 47887 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.45]
+2021-04-24 12:08:57.682  INFO 47887 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-04-24 12:08:57.682  INFO 47887 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1361 ms
+2021-04-24 12:08:57.825  INFO 47887 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-04-24 12:08:57.893  INFO 47887 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.30.Final
+2021-04-24 12:08:58.008  INFO 47887 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-04-24 12:08:58.107  INFO 47887 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-04-24 12:08:58.535  INFO 47887 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-04-24 12:08:58.559  INFO 47887 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2021-04-24 12:08:59.206  INFO 47887 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-04-24 12:08:59.222  INFO 47887 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-04-24 12:08:59.259  INFO 47887 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-04-24 12:08:59.542  WARN 47887 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-04-24 12:08:59.676  INFO 47887 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-24 12:08:59.821  WARN 47887 --- [restartedMain] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2021-04-24 12:08:59.927  INFO 47887 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-04-24 12:08:59.939  INFO 47887 --- [restartedMain] c.b.a.AddressBookApplication             : Started AddressBookApplication in 4.147 seconds (JVM running for 5.33)
+2021-04-24 12:08:59.944  INFO 47887 --- [restartedMain] c.b.a.AddressBookApplication             : Address Book App Started COMMON Environment 
+2021-04-24 12:08:59.944  INFO 47887 --- [restartedMain] c.b.a.AddressBookApplication             : Address Book DB User is root 
+2021-04-24 12:09:33.453  INFO 47887 --- [Thread-4] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-04-24 12:09:33.455  INFO 47887 --- [Thread-4] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-04-24 12:09:33.462  INFO 47887 --- [Thread-4] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2021-04-24 12:09:33.477  INFO 47887 --- [Thread-4] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
